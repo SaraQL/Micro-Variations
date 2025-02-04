@@ -1,0 +1,13 @@
+body{
+  height: 300vh;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 39%, rgba(201,241,251,1) 51%, rgba(104,194,255,1) 64%, rgba(21,69,133,1) 76%, rgba(19,64,123,1) 77%, rgb(35, 37, 35) 89%);
+  position: relative;
+}
+
+main{
+  position : fixed;
+  height: 100vh;
+}
+
+/* ne pas toucher aux éléments ci-dessus. On travail c'est ce qui permet d'avoir une page que l'on peut 
+"scroller" mais qui visuellement ne bouge pas. */

@@ -1,0 +1,113 @@
+@media (max-width: 800px) {
+    /*apparence différente pour une page inférieure à 800px*/
+
+    #gauche{
+        height : 1194px;
+        width : 1538px;
+        position : absolute;
+        transform: rotate(-50deg);
+        top: -500px;
+        left : -1050px;
+        background: url("../img/arc_en_ciel.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      #droite{
+        height : 1286px;
+        width : 1601px;
+        position : absolute;
+        transform: rotate(-180deg);
+        top : -650px;
+        left : 200px;
+        background: url("../img/arc_en_ciel_2.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      #chemin{
+        height : 1417px;
+        width : 1890px;
+        position : absolute;
+        top : -153px;
+        left : -515px;
+        filter: hue-rotate(0deg);
+      }
+      
+    }
+    
+    @media (max-width: 1000px) and (min-width :800px){
+    /*apparence différente pour une page comprise entre 800px et 1000px*/
+
+    #gauche{
+        height : 1081px;
+        width : 1392px;
+        transform: rotate(-50deg);
+        position : absolute;
+        top: -384px;
+        left : -800px;
+        background: url("../img/arc_en_ciel.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      #droite{
+        height : 1246px;
+        width : 1110px;
+        transform: rotate(140deg);
+        position : absolute;
+        top : -500px;
+        left : 450px;
+        background: url("../img/arc_en_ciel_2.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      #chemin{
+        height : 1418px;
+        width : 1890px;
+        position : absolute;
+        top : -95px;
+        left : -419px;
+        filter: hue-rotate(0deg);
+      }
+      
+    }
+    
+    @media (min-width :1000px){
+    /*apparence différente pour une page supérieure à 1800px*/
+
+
+    #gauche{
+        height : 1028px;
+        width : 1324px;
+        transform: rotate(-50deg);
+        position : absolute;
+        top: -347px;
+        left : -364px;
+        background: url("../img/arc_en_ciel.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      
+      #droite{
+        height : 1282px;
+        width : 1439px;
+        transform: rotate(100deg);
+        position : absolute;
+        top : -500px;
+        left : 980px;
+        background: url("../img/arc_en_ciel_2.svg");
+        background-size: contain;
+        background-repeat: no-repeat;      
+      }
+      
+      #chemin{
+        height : 1417px;
+        width : 1890px;
+        position : absolute;
+        top : -190px;
+        left : 36px;
+        filter: hue-rotate(0deg); 
+      }
+    }
