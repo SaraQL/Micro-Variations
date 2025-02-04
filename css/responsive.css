@@ -8,7 +8,7 @@
         transform: rotate(-50deg);
         top: -500px;
         left : -1050px;
-        background: url("../img/arc_en_ciel.svg");
+        background: url('../img/arc_en_ciel.svg');
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -20,7 +20,7 @@
         transform: rotate(-180deg);
         top : -650px;
         left : 200px;
-        background: url("../img/arc_en_ciel_2.svg");
+        background: url('../img/arc_en_ciel_2.svg');
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -46,7 +46,7 @@
         position : absolute;
         top: -384px;
         left : -800px;
-        background: url("../img/arc_en_ciel.svg");
+        background: url('../img/arc_en_ciel.svg');
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -58,7 +58,7 @@
         position : absolute;
         top : -500px;
         left : 450px;
-        background: url("../img/arc_en_ciel_2.svg");
+        background: url('../img/arc_en_ciel_2.svg');
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -85,7 +85,7 @@
         position : absolute;
         top: -347px;
         left : -364px;
-        background: url("../img/arc_en_ciel.svg");
+        background: url('../img/arc_en_ciel.svg');
         background-size: contain;
         background-repeat: no-repeat;
       }
@@ -97,7 +97,7 @@
         position : absolute;
         top : -500px;
         left : 980px;
-        background: url("../img/arc_en_ciel_2.svg");
+        background: url('../img/arc_en_ciel_2.svg');
         background-size: contain;
         background-repeat: no-repeat;      
       }
